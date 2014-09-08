@@ -1,0 +1,65 @@
+select  *           
+             /*           
+       NAIMOTD,                          
+       NUMCARD,  
+       PEOPLE_ID_FK,
+       PATIENT_FIO,                                   
+       DT_RECEIPT,    
+       DTEXTRACT,  
+       CLINIC_DIAG    */      
+              
+from
+   VW_PATIENT_CARD as card     
+   WHERE card.DTEXTRACT BETWEEN :dtStart AND :dtStop    
+   AND ID_LPU_FK = :LPU_ID                       
+   AND 1 <  (
+             SELECT COUNT(*) FROM
+               (                 
+               SELECT WT_PATIENT_ID FROM
+               WT_PATIENT  -- VW_PATIENT_CARD as c
+               WHERE PEOPLE_ID_FK = card.PEOPLE_ID_FK
+               AND CLINIC_DIAG = card.CLINIC_DIAG                                                                                   
+               AND DTEXTRACT BETWEEN card.DTEXTRACT  AND CASE 1 --(card.DTEXTRACT + 30)
+                      WHEN 1 THEN (card.DTEXTRACT + 30)
+                      WHEN 2 THEN (card.DTEXTRACT + 10)  END                                
+               )                                 
+             )                                 
+
+ORDER BY KOD_NUM, PATIENT_FIO, DTEXTRACT  
+
+------------------------------------------------------------------
+
+
+SELECT
+       NAIMOTD,                          
+       NUMCARD,  
+       PEOPLE_ID_FK,
+       PATIENT_FIO,                                   
+       DT_RECEIPT,    
+       DTEXTRACT,  
+       CLINIC_DIAG,
+       CLINIC_DIAG_NAME    
+FROM VW_PATIENT_CARD AS c         
+WHERE PEOPLE_ID_FK IN                      
+  
+(    
+   SELECT  PEOPLE_ID_FK           
+   FROM VW_PATIENT_CARD as card     
+   WHERE card.DTEXTRACT BETWEEN :dtStart AND :dtStop    
+   AND ID_LPU_FK = :LPU_ID                       
+   AND 1 <  (
+             SELECT COUNT(*) FROM
+               (                 
+               SELECT WT_PATIENT_ID FROM
+               WT_PATIENT 
+               WHERE PEOPLE_ID_FK = card.PEOPLE_ID_FK
+               AND CLINIC_DIAG = card.CLINIC_DIAG                                                                                   
+               AND DTEXTRACT BETWEEN card.DTEXTRACT  AND CASE 1 --(card.DTEXTRACT + 30)
+                      WHEN 1 THEN (card.DTEXTRACT + 30)
+                      WHEN 2 THEN (card.DTEXTRACT + 10)  END                                
+               )                                 
+             )                                 
+)  
+
+AND DTEXTRACT BETWEEN :dtStart AND :dtStop                                   
+ORDER BY KOD_NUM, PATIENT_FIO, DTEXTRACT

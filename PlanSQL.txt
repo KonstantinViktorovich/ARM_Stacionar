@@ -1,0 +1,45 @@
+SELECT  
+        CASE KODOTD
+           WHEN 32  THEN 31  
+           WHEN 199 THEN 30  
+           ELSE KODOTD
+        END AS KODOTD,
+                                                                                                                                                                 
+        CASE NAIMOTD
+           WHEN 'ТЕРАПЕВТИЧЕСКОЕ № 1' THEN 'ТЕРАПЕВТИЧЕСКОЕ'  
+           WHEN 'ТЕРАПЕВТИЧЕСКОЕ № 2' THEN 'ТЕРАПЕВТИЧЕСКОЕ'
+           WHEN 'ОТОЛАРИHГОЛОГИЧЕСКОЕ ДЛЯ ДЕТЕЙ' THEN 'ОТОЛАРИHГОЛОГИЧЕСКОЕ'  
+           WHEN 'ОФТАЛЬМОЛОГИЧЕСКОЕ (ЭКСТР.HЕОТ' THEN 'ОФТАЛЬМОЛОГИЧЕСКОЕ'               
+           ELSE NAIMOTD
+        END AS NAIMOTD,
+          
+        SUM(CNT) AS CNT,
+        SUM(KD)  AS KD,
+        SUM(CL)  AS CL           
+FROM
+(SELECT KOD_NUM,  
+        KODOTD,
+        NAIMOTD,
+        COUNT(*) AS CNT,
+        SUM(KD)  AS KD,
+        SUM(CL)  AS CL
+   FROM RP_FORM4_1(:LPU_ID, :dtStart, :dtStop, :ALL_LPU, 3)
+   GROUP BY 1,2,3                  
+UNION          
+ SELECT KOD_NUM,  
+        KODOTD,
+        NAIMOTD,
+        COUNT(*) AS CNT,
+        SUM(KD)  AS KD,
+        SUM(CL)  AS CL
+   FROM RP_FORM4_1(:LPU_ID, :dtStart, :dtStop, :ALL_LPU, 4)
+   GROUP BY 1,2,3    
+) --  a INNER JOIN VW_BED_CLINIC_PLAN b ON a.KODOTD=b.SPROTD_ID_FK             
+GROUP BY 1,2
+
+
+
+SELECT *
+FROM VW_BED_CLINIC_PLAN
+WHERE CLINIC_ID_FK='118' AND y=2014 AND m=4
+ORDER BY SPROTD_ID_FK

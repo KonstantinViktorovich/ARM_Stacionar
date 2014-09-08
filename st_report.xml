@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>  
+<DATAPACKET Version="2.0">
+<METADATA>
+<FIELDS>
+	<FIELD attrname="NameReport" fieldtype="string" WIDTH="80"/>
+	<FIELD attrname="NameFile" fieldtype="string" WIDTH="50"/>
+	<FIELD attrname="Param" fieldtype="string" WIDTH="20"/>
+</FIELDS>
+<PARAMS CHANGE_LOG="1 0 4 2 1 8 3 0 4 4 3 8 5 4 8 6 2 8 7 0 4 7 0 2 8 6 8 9 0 4 10 5 8 11 10 8 12 0 4 13 0 4 14 0 4 15 0 4 16 0 4 17 0 4 18 0 4 19 18 8 20 0 4 21 0 4 22 20 8 23 19 8 24 0 4 25 0 4 26 0 4 27 0 4 28 0 4 29 0 4 30 0 4 31 0 4 32 31 8 33 32 8 33 0 2 34 16 8 35 17 8 36 23 8 37 22 8 38 21 8 39 0 4 40 0 4 41 0 4 42 0 4 43 0 4 44 0 4 45 0 4 46 0 4 47 0 4 48 0 4 49 0 4 50 0 4 51 0 4 52 0 4 53 0 4 54 0 4 55 0 4 56 0 4 57 0 4 58 0 4 59 0 4 60 0 4 61 0 4 62 0 4 63 0 4 64 0 4 65 0 4 66 0 4 67 0 4 68 0 4 69 0 4 70 0 4 71 0 4 72 0 4 73 0 4 74 0 4 75 0 4 76 0 4 77 0 4 78 0 4 79 0 4 80 0 4 81 0 4 82 0 4 83 0 4 84 0 4 85 0 4 86 0 4 87 0 4 88 0 4 89 0 4 90 0 4 91 0 4 92 0 4 93 0 4 94 0 4 95 0 4 96 0 4 97 0 4 98 0 4 99 0 4 100 0 4 101 0 4 102 0 4 103 0 4 104 0 4 105 0 4 106 0 4 107 0 4 108 0 4 109 0 4 110 0 4 111 0 4 112 0 4 113 0 4 114 0 4 115 0 4 116 0 4 117 0 4 118 0 4 119 0 4 120 0 4 121 120 8 122 121 8 122 0 2 123 0 4 123 0 2 124 0 4 125 0 4 126 0 4 127 125 8 128 0 4 129 106 8 130 0 4 131 130 8 132 0 4 133 12 8 134 0 4 135 134 8"/>
+</METADATA>
+<ROWDATA>
+<ROW RowState="5" NameReport="Справка" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;r_inog.fr3" Param=""/>
+<ROW RowState="13" NameReport="Реестр счёта (иногородние)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;r_inog.fr3" Param=""/>
+<ROW RowState="5" NameReport="К выписке" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;alert_limit.fr3" Param=""/>
+<ROW RowState="13" NameReport="К выписке" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;alert_limit.fr3" Param=""/>
+<ROW RowState="13" NameReport="К выписке" NameFile="ExtForm&#092;alert_limit.fr3" Param=""/>
+<ROW RowState="13" NameReport="Реестр счёта (иногородние)" NameFile="ExtForm&#092;r_inog.fr3" Param=""/>
+<ROW RowState="6" NameReport="Test For Stac" NameFile="ExtForm&#092;disp67.fr3" Param=""/>
+<ROW RowState="12" NameReport="Реестр счёта (иногородние)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;r_inog.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о переведённых в др.учр. (Форма1)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F01.fr3" Param=""/>
+<ROW RowState="13" NameReport="К выписке" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;doc-invoice.fr3" Param=""/>
+<ROW RowState="12" NameReport="К выписке" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;alert_limit.fr3" Param=""/>
+<ROW RowState="5" NameReport="Сведения о выбывших из стационара (Форма 2)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F02.fr3" Param=""/>
+<ROW RowState="4" NameReport="Пол и возраст выбывших из стационара (Форма 3)" NameFile="C:&#092;Develop&#092;Stac&#092;main&#092;ExtForm&#092;F03.fr3" Param=""/>
+<ROW RowState="4" NameReport="Пол и возраст умерших (Форма 4)" NameFile="C:&#092;Develop&#092;Stac&#092;main&#092;ExtForm&#092;F04.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о повторной госпитализации (Форма 5)" NameFile="C:&#092;Develop&#092;Stac&#092;main&#092;ExtForm&#092;F05.fr3" Param=""/>
+<ROW RowState="5" NameReport="СОСТАВ БОЛЬНЫХ В СТАЦИОНАРЕ (Форма 16)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F16.fr3" Param=""/>
+<ROW RowState="5" NameReport="СОСТАВ БОЛЬНЫХ В СТАЦИОНАРЕ (Форма 17)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F17.fr3" Param=""/>
+<ROW RowState="5" NameReport="СВОДНАЯ ВЕДОМОСТЬ ВЫБЫВШИХ БОЛЬНЫХ ПО НАПРАВИВШИМ УЧРЕЖДЕНИЯМ" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F21.fr3" Param=""/>
+<ROW RowState="13" NameReport="СВОДНАЯ ВЕДОМОСТЬ ВЫБЫВШИХ БОЛЬНЫХ ПО НАПРАВИВШИМ УЧРЕЖДЕНИЯМ (Форма 21)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F21.fr3" Param=""/>
+<ROW RowState="5" NameReport="СВОДНАЯ ВЕДОМОСТЬ ВЫБЫВШИХ БОЛЬНЫХ ПО СТРАХОВЫМ ОРГАНИЗАЦИЯМ (Форма 22)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F22.fr3" Param=""/>
+<ROW RowState="5" NameReport="ДОСТАВЛЕННЫХ В СТАЦИОНАР ЭКСТРЕННО (Форма 26)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F26.fr3" Param=""/>
+<ROW RowState="13" NameReport="ВЫБЫВШИЕ ПО СТРАХОВЫМ ОРГАНИЗАЦИЯМ (Форма 22)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F22.fr3" Param=""/>
+<ROW RowState="13" NameReport="ВЫБЫВШИЕ ПО НАПРАВИВШИМ УЧРЕЖДЕНИЯМ (Форма 21)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F21.fr3" Param=""/>
+<ROW RowState="4" NameReport="Выписанные. По нозологиям (Форма 32)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F32.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных. По нозологиям и отд. (Форма 33)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F33.fr3" Param=""/>
+<ROW RowState="4" NameReport="Средняя длительность по группам диагнозов (Форма 36)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F36.fr3" Param=""/>
+<ROW RowState="4" NameReport="Исходы лечения выбывших (Форма 37)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F37.fr3" Param=""/>
+<ROW RowState="4" NameReport="Больные по направившим учреждениям (Форма 46)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F46.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных, поступивших повторно (Форма 47)" NameFile="C:&#092;Develop&#092;Stac&#092;main&#092;ExtForm&#092;F47.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных, выбывших из стационара (Форма 48)" NameFile="C:&#092;Develop&#092;Stac&#092;main&#092;ExtForm&#092;F48.fr3" Param=""/>
+<ROW RowState="5" NameReport="Сведения о переведённых в др.учр. (Форма1)" NameFile="&#092;F01.fr3" Param=""/>
+<ROW RowState="13" NameReport="Сведения о переведённых в др.учр. (Форма1)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F01.fr3" Param=""/>
+<ROW RowState="14" NameReport="Сведения о переведённых в др.учр. (Форма1)" NameFile="F01.fr3" Param=""/>
+<ROW RowState="12" NameReport="Состав больных в стационаре. Дети 0-17 лет (Форма 16)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F16.fr3" Param=""/>
+<ROW RowState="12" NameReport="Состав больных в стационаре  (Форма 17)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F17.fr3" Param=""/>
+<ROW RowState="12" NameReport="Выбывшие по направившим учреждениям (Форма 21)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F21.fr3" Param=""/>
+<ROW RowState="12" NameReport="Выбывшие по страховым организациям (Форма 22)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F22.fr3" Param=""/>
+<ROW RowState="12" NameReport="Доставленных в стационар экстренно (Форма 26)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F26.fr3" Param=""/>
+<ROW RowState="4" NameReport="СПИСОК ИСТОРИЙ С НИЗКИМ КОЭФФИЦИЕНТОМ КАЧЕСТВА (&lt;0.90)" NameFile="C:&#092;develop&#092;Stac&#092;main&#092;ExtForm&#092;F28.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о переведённых в др.учр. (Форма1)" NameFile="ExtForm&#092;F01.fr3" Param=""/>
+<ROW RowState="4" NameReport="Работа отделений" NameFile="ExtForm&#092;WorkOtds.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных, пребывавших в реанимации (Форма 13)" NameFile="ExtForm&#092;F13.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о выбывших из стационара (Форма 2)" NameFile="ExtForm&#092;F02.fr3" Param=""/>
+<ROW RowState="4" NameReport="Средняя длительность по группам диагнозов (Форма 36)" NameFile="ExtForm&#092;F36.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о деятельности стационара (Форма 14)" NameFile="ExtForm&#092;F14.fr3" Param=""/>
+<ROW RowState="4" NameReport="Коечный фонд и его использование (Форма 30 Раздел 3 таблица 3100)" NameFile="ExtForm&#092;F30_3100.fr3" Param=""/>
+<ROW RowState="4" NameReport="АКОД: Сводные качественные показатели в сравнении с прошлым годом" NameFile="ExtForm&#092;AKOD_02.fr3" Param=""/>
+<ROW RowState="4" NameReport="АКОД: Сводные качественные показатели" NameFile="ExtForm&#092;AKOD_01.fr3" Param=""/>
+<ROW RowState="4" NameReport="Листок ежедневного учета движения больных и коечного фонда (форма 007/у-02)" NameFile="ExtForm&#092;F007_U_02.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сводная ведомость движения больных и коечного фонда (форма 016/у-02)" NameFile="ExtForm&#092;F016_U_02.fr3" Param=""/>
+<ROW RowState="4" NameReport="Количество поступивших больных по отделениям, СМО, направившим ЛПУ" NameFile="ExtForm&#092;NumHosp.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список поступивших больных по страховым компаниям (Форма 24а)" NameFile="ExtForm&#092;F24A.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список поступивших пациентов по направившим учреждениям (Форма 46а)" NameFile="ExtForm&#092;F46A.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных. По сопутствующим нозологиям (Форма 33-С)" NameFile="ExtForm&#092;F33S.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о деятельности дневных стационаров ЛПУ (Форма 14 дс)" NameFile="ExtForm&#092;F14DS.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о больных, переведенных в другие отделения (Форма 23)" NameFile="ExtForm&#092;F23.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о дооперационном о послеоперационном пребывании больных (Форма 6)" NameFile="ExtForm&#092;F06.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о прерывании беременности (Форма 13Г)" NameFile="ExtForm&#092;F13G.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список историй с низким коэффициентом качества (Форма 28)" NameFile="ExtForm&#092;F28.fr3" Param=""/>
+<ROW RowState="4" NameReport="Экстренная хирургическая помощь (Форма 19)" NameFile="ExtForm&#092;F19.fr3" Param=""/>
+<ROW RowState="4" NameReport="Работа врачей отделений" NameFile="ExtForm&#092;WorkDoctors.fr3" Param=""/>
+<ROW RowState="4" NameReport="Операции у выбывших из стационaра (Форма 07)" NameFile="ExtForm&#092;F07.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список выбывших больных по страховым компаниям (Форма 24)" NameFile="ExtForm&#092;F24.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сводная ведомость выбывших больных по видам обезболивания (Форма 25)" NameFile="ExtForm&#092;F25.fr3" Param=""/>
+<ROW RowState="4" NameReport="Пол и возраст выбывших из стационара (Форма 3)" NameFile="ExtForm&#092;F03.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о травмах, отравлениях и некоторых др послед возд вн причин (Форма 57г)" NameFile="ExtForm&#092;F57G.fr3" Param=""/>
+<ROW RowState="4" NameReport="Исходы лечения выбывших (Форма 37)" NameFile="ExtForm&#092;F37.fr3" Param=""/>
+<ROW RowState="4" NameReport="Больные по направившим учреждениям (Форма 46)" NameFile="ExtForm&#092;F46.fr3" Param=""/>
+<ROW RowState="4" NameReport="Анализ структуры нозологии &quot;Инсульт&quot;" NameFile="ExtForm&#092;GB12_03.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных, поступивших повторно (Форма 47)" NameFile="ExtForm&#092;F47.fr3" Param=""/>
+<ROW RowState="4" NameReport="Информация по глаукомам" NameFile="ExtForm&#092;GB8_01.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных, выбывших из стационара (Форма 48)" NameFile="ExtForm&#092;F48.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о деятельности стационара (Форма 14 МОДИФИЦИРОВАННАЯ)" NameFile="ExtForm&#092;F14-MOD.fr3" Param=""/>
+<ROW RowState="4" NameReport="Информация по травмам глаза" NameFile="ExtForm&#092;GB8_02.fr3" Param=""/>
+<ROW RowState="4" NameReport="Кандидаты на ДВН" NameFile="ExtForm&#092;CAND_DVN.fr3" Param=""/>
+<ROW RowState="4" NameReport="Пол и возраст умерших (Форма 4)" NameFile="ExtForm&#092;f04.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных по категориям льготности (Форма 11а)" NameFile="ExtForm&#092;F11A.fr3" Param=""/>
+<ROW RowState="4" NameReport="Состав больных в стационаре. Дети 0-17 лет (Форма 16)" NameFile="ExtForm&#092;F16.fr3" Param=""/>
+<ROW RowState="4" NameReport="Состав больных в стационаре  (Форма 17)" NameFile="ExtForm&#092;F17.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о повторной госпитализации (Форма 5)" NameFile="ExtForm&#092;F05.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список умерших" NameFile="ExtForm&#092;GB4_02.fr3" Param=""/>
+<ROW RowState="4" NameReport="Выбывшие по направившим учреждениям (Форма 21)" NameFile="ExtForm&#092;F21.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о причинах временной нетрудоспособности (Форма 16-ВН)" NameFile="ExtForm&#092;F16VN.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о количестве больных по заданным кодам операций (Форма 34)" NameFile="ExtForm&#092;F34.fr3" Param=""/>
+<ROW RowState="4" NameReport="Выбывшие по страховым организациям (Форма 22)" NameFile="ExtForm&#092;F22.fr3" Param=""/>
+<ROW RowState="4" NameReport="Доставленных в стационар экстренно (Форма 26)" NameFile="ExtForm&#092;F26.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных по заданным кодам операций (Форма 35)" NameFile="ExtForm&#092;F35.fr3" Param=""/>
+<ROW RowState="4" NameReport="Результаты лечения больных, выбывших из стационара (Форма 38)" NameFile="ExtForm&#092;F38.fr3" Param=""/>
+<ROW RowState="4" NameReport="Выписанные. По нозологиям (Форма 32)" NameFile="ExtForm&#092;F32.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных. По нозологиям и отд. (Форма 33)" NameFile="ExtForm&#092;F33.fr3" Param=""/>
+<ROW RowState="4" NameReport="Осложнения заболевания у больных, выбывших из стационара (Форма 8)" NameFile="ExtForm&#092;F08.fr3" Param=""/>
+<ROW RowState="4" NameReport="Госпитальная летальность в трудоспособном возрасте (Форма 9)" NameFile="ExtForm&#092;F09.fr3" Param=""/>
+<ROW RowState="4" NameReport="Причины летальных исходов в трудоспособном возрасте (Форма 10)" NameFile="ExtForm&#092;F10.fr3" Param=""/>
+<ROW RowState="4" NameReport="Состав больных по категориям льготности (Форма 11)" NameFile="ExtForm&#092;F11.fr3" Param=""/>
+<ROW RowState="4" NameReport="Стоимость лечения (Форма 4-1)" NameFile="ExtForm&#092;F4_1.fr3" Param=""/>
+<ROW RowState="4" NameReport="Состав больных в стационаре. Взрослые с 18 лет (Форма 15)" NameFile="ExtForm&#092;F15.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сводная ведомость выбывших больных по месту жительства (Форма 20)" NameFile="ExtForm&#092;F20.fr3" Param=""/>
+<ROW RowState="4" NameReport="Средние коэффициенты качества по отделениям (Форма 29)" NameFile="ExtForm&#092;F29.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о послеоперационных осложнениях (Форма 43)" NameFile="ExtForm&#092;F43.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных с послеоперационными осложнениями (Форма 44)" NameFile="ExtForm&#092;F44.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных с длительным периодом дооперационного пребывания (Форма 31)" NameFile="ExtForm&#092;F31.fr3" Param=""/>
+<ROW RowState="4" NameReport="Выявленные заболевания у больных по категориям льгот и соц. группам (Форма 42)" NameFile="ExtForm&#092;F42.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список больных с диагнозами по категориям льгот и соц. группам (Форма 45)" NameFile="ExtForm&#092;F45.fr3" Param=""/>
+<ROW RowState="4" NameReport="Сведения о пролеченных больных по категориям льготности (Форма 51)" NameFile="ExtForm&#092;F51.fr3" Param=""/>
+<ROW RowState="4" NameReport="Реестр пролеченных больных (Форма 4-2)" NameFile="ExtForm&#092;F4_2.fr3" Param=""/>
+<ROW RowState="5" NameReport="Сведения об аппаратуре, использованной при проведении операции (Форма 49)" NameFile="ExtForm&#092;F49.fr3" Param=""/>
+<ROW RowState="4" NameReport="Список пролеченных больных, пострадавших от травм (Форма 53)" NameFile="ExtForm&#092;F53.fr3" Param=""/>
+<ROW RowState="4" NameReport="Пролеченные по нозологиям и возрастам" NameFile="ExtForm&#092;GB12_01.fr3" Param=""/>
+<ROW RowState="4" NameReport="Досуточная летальность" NameFile="ExtForm&#092;GB4_03.fr3" Param=""/>
+<ROW RowState="4" NameReport="Летальность по нозоологиям" NameFile="ExtForm&#092;GB4_04.fr3" Param=""/>
+<ROW RowState="4" NameReport="Хирургическая работа" NameFile="ExtForm&#092;GB4_05.fr3" Param=""/>
+<ROW RowState="4" NameReport="Операции по возрастам" NameFile="ExtForm&#092;GB12_02.fr3" Param=""/>
+<ROW RowState="4" NameReport="Врачебная разработка за период по нозологиям" NameFile="ExtForm&#092;GB4_06.fr3" Param=""/>
+<ROW RowState="4" NameReport="Врачебная разработка оперирующего доктора по кодам операций" NameFile="ExtForm&#092;GB4_07.fr3" Param=""/>
+<ROW RowState="4" NameReport="Качественные показатели работы" NameFile="ExtForm&#092;GB4_01.fr3" Param=""/>
+<ROW RowState="4" NameReport="Заболевания плюс другие данные" NameFile="ExtForm&#092;GB4_08.fr3" Param=""/>
+<ROW RowState="4" NameReport="Операции, проведенные в отделении" NameFile="ExtForm&#092;GB4_09.fr3" Param=""/>
+<ROW RowState="4" NameReport="Количество оперированных больных, операций и осложнений по оперирующим врачам" NameFile="ExtForm&#092;GB4_10.fr3" Param=""/>
+<ROW RowState="4" NameReport="Дефекты направивших врачей" NameFile="ExtForm&#092;RUB_01.fr3" Param=""/>
+<ROW RowState="5" NameReport="Качественные показатели - МОДИФИЦИРОВАННАЯ" NameFile="C:&#092;Program Files&#092;АРМ Стационар&#092;ExtForm&#092;GB4_01 - MO" Param=""/>
+<ROW RowState="13" NameReport="Качественные показатели - МОДИФИЦИРОВАННАЯ" NameFile="C:&#092;Program Files&#092;АРМ Стационар&#092;ExtForm&#092;GB4_01 - MO" Param=""/><ROW RowState="14" NameReport="Качественные показатели - МОДИФИЦИРОВАННАЯ" NameFile="C:&#092;Program Files&#092;АРМ Стационар&#092;ExtForm&#092;GB4_01 - MY" Param=""/><ROW RowState="6" NameReport="!!!" NameFile="C:&#092;Program Files&#092;АРМ Стационар&#092;ExtForm&#092;GB4_01 - MY" Param=""/>
+<ROW RowState="4" NameReport="Кач пок" NameFile="ExtForm&#092;GB4_01_MY.fr3" Param=""/>
+<ROW RowState="5" NameReport="План" NameFile="ExtForm&#092;F4_1_MY.fr3" Param=""/>
+<ROW RowState="4" NameReport="тфомс" NameFile="ExtForm/TFOMSkr.fr3" Param=""/>
+<ROW RowState="12" NameReport="План" NameFile="ExtForm&#092;F4_1_MOD.fr3" Param=""/>
+<ROW RowState="4" NameReport="Отчет по КСГ" NameFile="ExtForm&#092;KSG.fr3" Param=""/>
+<ROW RowState="12" NameReport="Сведения об аппаратуре, использованной при проведении операции (Форма 49)" NameFile="ExtForm&#092;F49.fr3" Param=""/>
+<ROW RowState="5" NameReport="Аппар" NameFile="ExtForm&#092;F49.fr3" Param=""/>
+<ROW RowState="12" NameReport="Аппар" NameFile="ExtForm&#092;F49MOD.fr3" Param=""/>
+<ROW RowState="4" NameReport="хмл" NameFile="ExtForm&#092;ReestrXML_TFOMS.fr3" Param=""/>
+<ROW RowState="12" NameReport="Сведения о выбывших из стационара (Форма 2)" NameFile="ExtForm&#092;F02.fr3" Param=""/>
+<ROW RowState="5" NameReport="Договоры" NameFile="C:&#092;Program Files&#092;АРМ Стационар&#092;ExtForm&#092;ReestrContr" Param=""/>
+<ROW RowState="12" NameReport="Договоры" NameFile="ExtForm&#092;ReestrContracts.fr3" Param=""/>
+</ROWDATA>
+</DATAPACKET>
